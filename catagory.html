@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop-app</title>
+    <!-- Bootstrap-5 cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <!-- Data-Table-cdn -->
+    <link rel="stylesheet" href="//cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+    <!-- custom-css -->
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+    <!-- shop_header start -->
+    <div class="shop_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <a href="#"><img class="rounded-circle" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/70f7d800-e089-44c5-8d2c-aae8f7111278/dcdp6t3-7740d6a8-7962-47d8-958e-02b3af0416c0.jpg/v1/fill/w_1024,h_937,q_75,strp/online_store_logo_by_creative_p_dcdp6t3-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzcwZjdkODAwLWUwODktNDRjNS04ZDJjLWFhZThmNzExMTI3OFwvZGNkcDZ0My03NzQwZDZhOC03OTYyLTQ3ZDgtOTU4ZS0wMmIzYWYwNDE2YzAuanBnIiwiaGVpZ2h0IjoiPD05MzciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC83MGY3ZDgwMC1lMDg5LTQ0YzUtOGQyYy1hYWU4ZjcxMTEyNzhcL2NyZWF0aXZlLXAtNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.iPdw7pn49iMs32m8QAmPq1LdxRJ8dfJPOF381v2oWGs" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="menu text-end">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./product.html">Admin</a></li>
+                            <li><a href="./index.html">Shop</a></li>
+                            <li><a href="#">Cart</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- shop_header end -->
+
+
+    <!-- Catagory_area start -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body dash_menu">
+                        <ul>
+                            <li><a href="./product.html">Products</a></li>
+                            <li><a href="./catagory.html">Catagory</a></li>
+                            <li><a href="./tag.html">Tags</a></li>
+                            <li><a href="./brands.html">Brands</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="text-center">Catagory</h2>
+                        <hr>
+                        <table class="catagory_table table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Slug</th>
+                                    <th>Status</th>
+                                    <th>Photo</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="align-middle">
+                                    <td>1</td>
+                                    <td>Men</td>
+                                    <td>men</td>
+                                    <td><span class="badge bg-success">published</span></td>
+                                    <td><img style="width: 60px; height: 60px;" src="https://4.imimg.com/data4/UM/DL/IMOB-45190179/81sbhyvnbpl-_uy445_-500x500.jpg" alt=""></td>
+                                    <td>
+                                        <a class="btn btn-sm btn-info" href="#"><i class="fas fa-eye"></i></a>
+                                        <a class="btn btn-sm btn-warning" href="#"><i class="fas fa-edit"></i></a>
+                                        <a class="btn btn-sm btn-danger" href="#"><i class="fas fa-trash"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Catagory_area end -->
+
+
+
+
+
+
+
+<!-- jquery-cdn-link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>  
+<!-- Data-Table-js -->
+<script src="//cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<!--Bootstrap bundle with proper js-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- custom-js -->
+<script src="./app.js"></script>
+</body>
+</html>
